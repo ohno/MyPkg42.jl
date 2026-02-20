@@ -1,0 +1,20 @@
+name = "MyPkg42"
+uuid = "180b2c20-14ec-4537-bf3d-cbc91a52cc80"
+authors = ["Shuhei Ohno"]
+version = "0.0.1"
+
+[deps]
+DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
+
+[compat]
+julia = "1.11"
+DocStringExtensions = "0.9.3"
+Aqua = "0.8"
+Test = "1"
+
+[extras]
+Aqua = "4c88cf16-eb10-579e-8560-4a9242c79595"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Aqua", "Test"]
